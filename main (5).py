@@ -4,7 +4,7 @@ from vk_api.longpoll import VkLongPoll, VkEventType
 
 from cities import Cities
 
-vk_session = vk_api.VkApi(token="3655dd0b6c2e6543719414bd3b12b65e651dc3fa6e5083960614d0ebf2357ba9ad5850a1b68586b50403a")
+vk_session = vk_api.VkApi(token="Your token")
 longpoll = VkLongPoll(vk_session)
 
 
